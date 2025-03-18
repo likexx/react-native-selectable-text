@@ -16,7 +16,6 @@
         "react-native": "*"
     },
     "dependencies": {
-        "fast-memoize": "*",
-        "uuid": "*"
+        "fast-memoize": "*"
     }
 }
