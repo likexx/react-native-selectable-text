@@ -34,7 +34,7 @@ UITextPosition* beginning;
 {
     if (self = [super initWithBridge:bridge]) {
         // `blurOnSubmit` defaults to `false` for <TextInput multiline={true}> by design.
-        self.blurOnSubmit = NO;
+        // self.blurOnSubmit = NO;
         
         _backedTextInputView = [[RCTUITextView alloc] initWithFrame:self.bounds];
         _backedTextInputView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
